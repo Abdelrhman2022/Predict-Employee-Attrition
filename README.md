@@ -40,14 +40,3 @@ Hyperparameters:
  'max_depth': 25]**
 
 
-
-After Tuning Model Found Best Score is **96.55%** 
-
-Hyperparameters: 
-**['max_depth': 25,
- 'max_features': 'sqrt',
- 'min_samples_leaf': 1,
- 'min_samples_split': 2,
- 'n_estimators': 1000]**
-
-
