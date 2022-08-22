@@ -17,16 +17,28 @@ The dataset consists of 25491 obseravtions and 10 variables. Each row in dataset
 * Department (in which they work for)
 * salary (Relative level of salary)
 
-# Conclusion
+# Results & Conclusion
 
 **Random Forest is the best classfier for predicting employee attrition for our dataset. Some of the most important factors on which employee attrition depends are:**
 
-* Satisfaction Level: **62.06%**
-* Time since last evaluation: **31.80%**
-* Work Accident: **2.25%**
-* Low Salary: **0.97%**
-* High Salary: **0.86%**
-* Career Advancement ( If Promoted in last five years or not): **0.48%**
+
+* Satisfaction Level: **55.35%**
+* Time since last evaluation: **37.73%**
+* Work Accident: **2.47%**
+* Low Salary: **1.18%**
+* High Salary: **0.93%**
+* Career Advancement ( If Promoted in last five years or not): **0.50%**
+
+
+After Tuning Model Found Best Score is **95.68%** 
+
+Hyperparameters: 
+**['n_estimators': 1000,
+ 'min_samples_split': 2,
+ 'min_samples_leaf': 1,
+ 'max_features': 'sqrt',
+ 'max_depth': 25]**
+
 
 
 After Tuning Model Found Best Score is **96.55%** 
